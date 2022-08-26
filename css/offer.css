@@ -1,0 +1,36 @@
+/* 3.4 offer section */
+.offer-content{
+
+}
+.offer-content-item{
+    width:32%;
+    float :left;
+    padding:10px;
+    border:1px solid #e8e8e8;
+    padding: 30px 15px 30px 70px;
+    position: relative;
+}
+
+.offer-content-desc{
+    color:var(--grayColor);
+}
+.offer-content-item.mg{
+    margin:0 2%;
+}
+.offer-content-item .icon{
+    position: absolute;
+    left: 15px;
+    top: 35px;
+    color:var(--mainColor);
+
+}
+.offer-content-title{
+    transition: color 2s;
+}
+.offer-content-desc{
+    color:var(--grayColor);
+    line-height: 1.5;
+}
+.offer-content-item:hover .offer-content-title{
+    color:var(--whiteColor);
+}

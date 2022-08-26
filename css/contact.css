@@ -1,0 +1,77 @@
+/* 3.11 contact section */
+.contact{
+
+}
+.contact-content{
+    margin-bottom: 60px;
+}
+.contact-item{
+    width:30%;
+    float:left;
+    text-align: center;
+    padding:20px;
+}
+.contact-item.mg{
+    margin:0 5%;
+}
+.contact-item i{
+    color:var(--mainColor);
+    margin: 15px 0;
+}
+.contact-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+.contact-text{
+    color:var(--grayColor);
+}
+.form{
+    width:70%;
+    margin:auto;
+    text-align: center;
+}
+.contact-name, .contact-email{
+    float:left;
+    width: 45%;
+    height:30px;
+    border:none;
+    background-color: #f8f8f8;
+    padding:20px;
+    border-radius: 5px;
+}
+.contact-email{
+    margin-left:5%;
+}
+.contact-subject{
+    width: 95%;
+    background-color: #f8f8f8;
+    height:30px;
+    border:none;
+    padding:20px;
+    display: block;
+}
+.contact-msg{
+    display: block;
+    padding:10px;
+    border:none;
+    background-color: #f8f8f8;
+    margin-bottom: 40px;
+}
+.contact-name:hover,.contact-email:hover,.contact-subject:hover,.contact-msg:hover{
+    border:2px solid #6195ff;
+}
+.contact-button{
+    background-color:var(--mainColor);
+    color:var(--whiteColor);
+    display: block;
+    margin: auto;
+    width: 180px;
+    height:50px;
+    border:none;
+    border-radius: 3px;
+    transform: opacity .5s;
+    padding:15px 10px;
+}
+.contact-button:hover{
+    opacity: .9;
+}

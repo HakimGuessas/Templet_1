@@ -1,0 +1,45 @@
+/* 3.10 blog section */
+.blog{
+    background-color: #f8f8f8;
+    }
+    .blog-content{
+    
+    }
+    .blog-item{
+        width: 30%;
+        float: left;
+        background-color:var(--whiteColor);
+    }
+    .blog-item.mg{
+        margin:0 5%;
+    }
+    .blog-item-img img{
+        width: 100%;
+    }
+    .blog-info{
+        padding-left: 40px;
+    }
+    .blog-item-list{
+        list-style: none;
+        margin:15px 0px 20px;
+    }
+    .blog-item-list li{
+        display:inline-block;
+        margin-right: 10px;
+    }
+    .blog-item-list li i{
+        color:var(--mainColor);
+    
+    }
+    .blog-item-desc{
+        color:var(--grayColor);
+        line-height: 1.5;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .blog-item-button{
+        border: none;
+        color:var(--mainColor);
+        font-size: 15px;
+        margin:15px 0px;
+    }

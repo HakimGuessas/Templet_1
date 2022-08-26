@@ -1,0 +1,58 @@
+/* 3.5 services section */
+.services{
+    background-color: #f9f9f9;
+}
+.services-item{
+    width:50%;
+    float:left;
+}
+.services-item .section-header{
+    text-align: left;
+}
+.services-item .line{
+    margin:0px 0px 50px 0;
+}
+.services-item-desc{
+    color:var(--grayColor);
+    line-height: 1.5;
+    padding-right: 20px;
+    font-size: 17px;
+    margin-bottom: 20px;
+
+}
+.services-list{
+    list-style: none;
+}
+.services-list-item{
+    color:var(--grayColor);
+}
+.services-list-item i{
+    color:var(--mainColor);
+    border: 1px solid var(--mainColor);
+    width:30px;
+    height:30px;
+    padding:7px;
+    border-radius: 50%;
+}
+.services-item-img img{
+    width:100%;
+}
+.services-list-bollets{
+    list-style: none;
+    text-align: center;
+}
+.services-list-bollets li{
+    width:10px;
+    height: 10px;
+    display: inline-block;
+    background-color:#e8e8e8;
+    margin:10px 5px;
+    border-radius:50%;
+    transition: color .2s;
+}
+.services-list-bollets li.active{
+    background-color:var(--mainColor);
+}
+.services-list-bollets li:hover{
+    background-color:var(--mainColor);
+}

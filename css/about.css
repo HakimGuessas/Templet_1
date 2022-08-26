@@ -1,0 +1,25 @@
+/* 3.2  about section */
+.about-item{
+    width:30%;
+    float:left;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    padding:50px 20px;
+}
+.about-item.mg{
+    margin:0 5%;
+}
+.about-item .icon{
+    color:var(--mainColor);
+}
+.about-item-title{
+    transition: color 2s;
+}
+.about-item-desc{
+    line-height: 1.5;
+    color:var(--grayColor);
+}
+.about-item-link{
+    text-decoration: none;
+    color:var(--mainColor);
+}

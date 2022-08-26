@@ -1,0 +1,125 @@
+ /* 
+ 1. common styles
+ 2.General styles
+ 3.secions
+   3.0 header section 
+   3.1 home section
+   3.2 about section
+   3.3 portofolio section
+   3.4 offer section
+   3.5 pricing section
+   3.6 testimonial section
+   3.7 blog section
+   3.8 contact section
+   3.9 footer section
+ */
+
+ /*  1. Common styles */
+/*
+overlay
+opacity hover
+section Header
+section padding
+hover effect1 (left to right)
+hover effect2 (top to bottom)
+
+*/
+.overlay{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.8);
+}
+.hover-opacity{
+    transition: opacity .5s;
+}
+.hover-opacity:hover{
+    opacity:0.8;
+}
+.ltr-effect ,.ttb-effect{
+    position:relative;
+}
+.ltr-effect::after ,.ttb-effect::after {
+    position:absolute;
+    content:'';
+    top:0;
+    left: 0;
+    background-color:#333;
+    z-index:-1;
+}
+.ltr-effect::after{
+    width:0;
+    height:100%;
+    transition:width .5s;
+}
+.ltr-effect:hover:after{
+    width:100%;
+}
+.ltr-effect:hover .about-item-title{
+    color:var(--whiteColor);
+}
+.ttb-effect::after{
+    width:100%;
+    height:0;
+    transition: height .5s;
+}
+.ttb-effect:hover::after{
+    height: 100%;
+}
+.pricing-item:hover .pricing-item-text{
+    color:#6195ff;
+}
+.pricing-item:hover .pricing-dollar,.pricing-item:hover .pricing-month{
+    color:var(--whiteColor);
+}
+/* 2. Generale styles */
+.container{
+    width:80%;
+    margin:auto;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+:root{
+    --mainColor :#6195ff;
+    --whiteColor:#fff;
+    --grayColor:#999;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.clear{
+    clear:both;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Montserrat,sans-serif;
+}
+button{
+    font-family:inherit;
+}
+.section-header{
+    text-align: center;
+}
+.section-title{
+    font-size: 35px;
+}
+.line{
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color:var(--mainColor);
+    margin:auto;
+    margin-bottom: 71px;
+}
+.pd-y{
+    padding:120px 0;
+}
+ul{
+    list-style-type: none;
+}
+
+
